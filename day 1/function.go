@@ -26,9 +26,14 @@ func sumAll(angka ...int) int {
 	return total
 }
 
+func hutang(nama string,hutang int)(string,int)  {
+	return nama,hutang
+}
+
 func main()  {
 	sayHello()
 	fmt.Println(tambah(10,20))
 	fmt.Println(lingkaran())
 	fmt.Println(sumAll(20,20,10,11,21))
+	fmt.Println(hutang("Habib",20))
 }
