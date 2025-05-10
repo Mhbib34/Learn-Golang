@@ -1,20 +1,20 @@
-package main
+// package main
 
-import "fmt"
-func logging()  {
-	fmt.Println("Selesai meamnggil function")
-	message := recover()
-	fmt.Println("Terjadi error",message)
-}
+// import "fmt"
+// func logging()  {
+// 	fmt.Println("Selesai meamnggil function")
+// 	message := recover()
+// 	fmt.Println("Terjadi error",message)
+// }
 
-func runApp(error bool)  {
-	defer logging()
-	fmt.Println("Run App")
-	if error {
-		panic("Uppss Error")
-	}
-}
+// func runApp(error bool)  {
+// 	defer logging()
+// 	fmt.Println("Run App")
+// 	if error {
+// 		panic("Uppss Error")
+// 	}
+// }
 
-func main()  {
-	runApp(true)
-}
+// func main()  {
+// 	runApp(true)
+// }
