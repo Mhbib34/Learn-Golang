@@ -1,17 +1,17 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-type Adress struct {
-	Kota, Alamat string
-}
+// type Adress struct {
+// 	Kota, Alamat string
+// }
 
-func main() {
-	alamat1 := Adress{"Medan", "Jalan kesana"}
-	alamat2 := &alamat1
+// func main() {
+// 	alamat1 := Adress{"Medan", "Jalan kesana"}
+// 	alamat2 := &alamat1
 
-	alamat2.Kota = "Jakarta"
+// 	alamat2.Kota = "Jakarta"
 
-	fmt.Println(alamat1)
-	fmt.Println(alamat2)
-}
+// 	fmt.Println(alamat1)
+// 	fmt.Println(alamat2)
+// }
